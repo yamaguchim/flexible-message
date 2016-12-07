@@ -11,6 +11,7 @@ main{
 
 }
 
+/*****HEADER*******/
 .line{
 	height: 8px;
 	background: #EB6866;
@@ -22,6 +23,7 @@ main{
 }
 
 h1{
+	/*font-family: 'UnifrakturMaguntia';*/
 	font-family: 'Rakkas';
 	text-align: center;
     display: block;
@@ -31,12 +33,13 @@ h1{
     line-height: .9;
     margin-top: 2vw;
         /* max-width: 10em; */
+    color: rgb(64, 63, 62);
 
 }
 
 header h1 span {
   display: block;
-/*  font-size: 5em;*/
+  /*font-size: 5em;*/
 }
 
 p.box{
@@ -47,18 +50,41 @@ p.box{
     border-width: 2px;
 }
 
-/*maybe*/
-
-h3{
+h2{
 	font-family: 'Rakkas';
+	color: #6F7BC1;
 	text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-size: 2.5em; 
+}
+
+/******BODY*******/
+
+/*Blue Headline*/
+h3{
+	font-family: 'Special Elite';
+	text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(64, 63, 62);
+   /* color: rgb(62, 63, 63);*/
+}
+
+h4{
+	font-family: 'UnifrakturMaguntia';
+	text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(64, 63, 62);
 }
 
 main section{
-	width: 30%; 
+	width: 47%; 
+	border: solid 1px #9E9C99;
 }
 
 @media only screen and (max-width:550px){
